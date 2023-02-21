@@ -11,10 +11,22 @@ body{
 .link-utili{
   background-color: #FFFFFF;
   border-radius: 25px;
-  padding: 15px 15px;
+  padding: 15px 20px;
   text-decoration: none;
   font-weight: 600;
   color: #23272ae2;
+}
+main section aside h1{
+  margin-top: 30px;
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #23272a;
+}
+main section aside p{
+  color: #23272ae8;
+  line-height: 26px;
+  margin-top: 10px;
+  font-weight: 700;
 }
 
 
@@ -112,56 +124,86 @@ body{
   font-size: 15px;
   font-weight: 1000;
 }
+#open-link{
+  background-color: #23272A;
+  color: #FFFFFF;
+}
 /* MAIN RULES*/
 .main-container{
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: rgb(244, 244, 244);
+  background-color: #FFFFFF;
   width: 100%;
-  height: 500px;
+  height: 600px;
 }
 .main-container-center{
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: rgb(84, 80, 80);
+  background-color: #F6F6F6;
   width: 100%;
-  height: 500px;
+  height: 600px;
 }
-.main-div{
+.main-div1{
   width: 50%;
   height: 90%;
-  background-color: rgb(58, 80, 158);
+  background-image: url(../img/item1.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
 }
-.aside-section{
-  width: 30%;
+.aside-section1{
+  width: 20%;
   height: 90%;
-  background-color: rgb(255, 134, 199);
+  text-align: left;
+}
+.main-div2{
+  width: 50%;
+  height: 90%;
+  background-image: url(../img/item2.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.aside-section2{
+  width: 20%;
+  height: 90%;
+  text-align: left;
+}
+.main-div3{
+  width: 50%;
+  height: 90%;
+  background-image: url(../img/item3.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.aside-section3{
+  width: 20%;
+  height: 90%;
+  text-align: left;
 }
 .big-container{
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: rgb(84, 80, 80);
+  background-color: #F6F6F6;
   width: 100%;
-  height: 600px;
+  height: 800px;
 }
-.main-big-div1{
+.big-div-text{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   width: 80%;
   height: 20%;
-  background-color: rgb(60, 158, 58);
 }
-.main-big-div2{
+.main-big-div-img{
   width: 80%;
   height: 60%;
-  background-color: rgb(158, 83, 58);
-}
-.main-big-div3{
-  width: 80%;
-  height: 20%;
-  background-color: rgb(60, 158, 58);
+  background-image: url(../img/item4-big.svg);
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 
