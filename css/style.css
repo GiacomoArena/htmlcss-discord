@@ -6,7 +6,7 @@
 
 /* GENERAL RULES*/
 body{
-  font-family: sans-serif;
+  font-family: 'Noto Sans', sans-serif;
 }
 .link-utili{
   background-color: #FFFFFF;
@@ -85,7 +85,7 @@ footer div, a{
 .button-login a{
   background-color: #FFFFFF;
   padding: 10px 10px;
-  border-radius: 17px;
+  border-radius: 25px;
   text-decoration: none;
   color: #23272ae2;
   font-weight: 600;
@@ -315,12 +315,14 @@ ul li a{
   font-weight: 700;
 }
 .ending-menu img{
-  margin-bottom: 20px;
-  margin-top: 25px;
+  margin-bottom: 10px;
+  
 }
 .ending-menu a{
-  width: ;
   color: #FFFFFF;
   background-color: #8EA1E1;
   margin-bottom: 17px;
+}
+#logo-bottom{
+  background-color: #23272A;
 }
